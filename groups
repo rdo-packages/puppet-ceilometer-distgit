@@ -1,5 +1,5 @@
-# UUID          Group Name
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
-7a3af0868a6973ce729cca8adee748ec6c7eee69       	puppet-ceilometer-distgit-core
-c3147a34a74cce841a75135cf6d99724b5821327        	puppet-ceilometer-distgit-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+7a3af0868a6973ce729cca8adee748ec6c7eee69	puppet-ceilometer-distgit-core
+c3147a34a74cce841a75135cf6d99724b5821327	puppet/puppet-ceilometer-distgit-ptl
+global:Registered-Users                 	Registered Users
