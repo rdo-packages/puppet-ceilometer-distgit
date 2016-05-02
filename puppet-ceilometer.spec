@@ -13,8 +13,9 @@ BuildArch:      noarch
 Requires:       puppet-apache
 Requires:       puppet-inifile
 Requires:       puppet-keystone
-Requires:       puppet-stdlib
 Requires:       puppet-openstacklib
+Requires:       puppet-oslo
+Requires:       puppet-stdlib
 Requires:       puppet >= 2.7.0
 
 %description
