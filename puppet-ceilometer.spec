@@ -23,7 +23,7 @@ Requires:       puppet >= 2.7.0
 Puppet module for OpenStack Ceilometer
 
 %prep
-%setup -q -n openstack-ceilometer-%{version}
+%setup -q -n openstack-ceilometer-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
