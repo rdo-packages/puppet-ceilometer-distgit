@@ -47,3 +47,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ceilometer/
 
 
 %changelog
+
