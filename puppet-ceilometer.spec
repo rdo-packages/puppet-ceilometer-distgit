@@ -50,4 +50,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ceilometer/
 * Fri Oct 04 2019 RDO <dev@lists.rdoproject.org> 15.4.0-1
 - Update to 15.4.0
 
-
