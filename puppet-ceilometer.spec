@@ -1,7 +1,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-ceilometer
-Version:        XXX
-Release:        XXX
+Version:        17.4.0
+Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Ceilometer
 License:        ASL 2.0
 
@@ -47,4 +47,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ceilometer/
 
 
 %changelog
+* Tue Sep 29 2020 RDO <dev@lists.rdoproject.org> 17.4.0-1
+- Update to 17.4.0
+
 
