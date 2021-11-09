@@ -65,3 +65,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ceilometer/
 
 %changelog
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-ceilometer/commit/d481b0cec1211529ff70044b728d576c97f71a25
