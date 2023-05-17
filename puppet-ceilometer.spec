@@ -1,8 +1,8 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x4c29ff0e437f3351fd82bdf47c5a3bc787dc7035
+%global sources_gpg_sign 0x815AFEC729392386480E076DCC0DFE2D21C023C9
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-ceilometer
-Version:        19.4.0
+Version:        19.5.0
 Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Ceilometer
 License:        ASL 2.0
@@ -64,6 +64,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/ceilometer/
 
 
 %changelog
+* Wed May 17 2023 RDO <dev@lists.rdoproject.org> 19.5.0-1
+- Update to 19.5.0
+
 * Thu Oct 07 2021 RDO <dev@lists.rdoproject.org> 19.4.0-1
 - Update to 19.4.0
 
